@@ -13,6 +13,8 @@
 		AEDB2FAB234DCA6A00470BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDB2FAA234DCA6A00470BA9 /* Assets.xcassets */; };
 		AEDB2FAE234DCA6A00470BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDB2FAC234DCA6A00470BA9 /* LaunchScreen.storyboard */; };
 		AEDB2FB1234DCA6A00470BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB0234DCA6A00470BA9 /* main.m */; };
+		AEDB2FBC234DCB6500470BA9 /* QSItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB8234DCB6500470BA9 /* QSItemView.m */; };
+		AEDB2FBD234DCB6500470BA9 /* QSSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB9234DCB6500470BA9 /* QSSlideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AEDB2FAD234DCA6A00470BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEDB2FAF234DCA6A00470BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDB2FB0234DCA6A00470BA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEDB2FB8234DCB6500470BA9 /* QSItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSItemView.m; sourceTree = "<group>"; };
+		AEDB2FB9234DCB6500470BA9 /* QSSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSlideView.m; sourceTree = "<group>"; };
+		AEDB2FBA234DCB6500470BA9 /* QSSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSlideView.h; sourceTree = "<group>"; };
+		AEDB2FBB234DCB6500470BA9 /* QSItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSItemView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		AEDB2FA0234DCA6900470BA9 /* QSSlideView */ = {
 			isa = PBXGroup;
 			children = (
+				AEDB2FB7234DCB3400470BA9 /* QSSlideView */,
 				AEDB2FA1234DCA6900470BA9 /* AppDelegate.h */,
 				AEDB2FA2234DCA6900470BA9 /* AppDelegate.m */,
 				AEDB2FA4234DCA6900470BA9 /* ViewController.h */,
@@ -67,6 +74,17 @@
 				AEDB2FAC234DCA6A00470BA9 /* LaunchScreen.storyboard */,
 				AEDB2FAF234DCA6A00470BA9 /* Info.plist */,
 				AEDB2FB0234DCA6A00470BA9 /* main.m */,
+			);
+			path = QSSlideView;
+			sourceTree = "<group>";
+		};
+		AEDB2FB7234DCB3400470BA9 /* QSSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				AEDB2FBB234DCB6500470BA9 /* QSItemView.h */,
+				AEDB2FB8234DCB6500470BA9 /* QSItemView.m */,
+				AEDB2FBA234DCB6500470BA9 /* QSSlideView.h */,
+				AEDB2FB9234DCB6500470BA9 /* QSSlideView.m */,
 			);
 			path = QSSlideView;
 			sourceTree = "<group>";
@@ -141,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDB2FBD234DCB6500470BA9 /* QSSlideView.m in Sources */,
 				AEDB2FA6234DCA6900470BA9 /* ViewController.m in Sources */,
+				AEDB2FBC234DCB6500470BA9 /* QSItemView.m in Sources */,
 				AEDB2FB1234DCA6A00470BA9 /* main.m in Sources */,
 				AEDB2FA3234DCA6900470BA9 /* AppDelegate.m in Sources */,
 			);
