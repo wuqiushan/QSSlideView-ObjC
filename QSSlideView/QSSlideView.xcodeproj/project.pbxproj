@@ -15,6 +15,8 @@
 		AEDB2FB1234DCA6A00470BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB0234DCA6A00470BA9 /* main.m */; };
 		AEDB2FBC234DCB6500470BA9 /* QSItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB8234DCB6500470BA9 /* QSItemView.m */; };
 		AEDB2FBD234DCB6500470BA9 /* QSSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FB9234DCB6500470BA9 /* QSSlideView.m */; };
+		AEDB2FC6234DD1BF00470BA9 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FC5234DD1BF00470BA9 /* AlbumViewController.m */; };
+		AEDB2FC9234DD1D200470BA9 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDB2FC8234DD1D200470BA9 /* MusicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		AEDB2FB9234DCB6500470BA9 /* QSSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSSlideView.m; sourceTree = "<group>"; };
 		AEDB2FBA234DCB6500470BA9 /* QSSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSSlideView.h; sourceTree = "<group>"; };
 		AEDB2FBB234DCB6500470BA9 /* QSItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSItemView.h; sourceTree = "<group>"; };
+		AEDB2FC4234DD1BF00470BA9 /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		AEDB2FC5234DD1BF00470BA9 /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		AEDB2FC7234DD1D200470BA9 /* MusicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		AEDB2FC8234DD1D200470BA9 /* MusicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 				AEDB2FAC234DCA6A00470BA9 /* LaunchScreen.storyboard */,
 				AEDB2FAF234DCA6A00470BA9 /* Info.plist */,
 				AEDB2FB0234DCA6A00470BA9 /* main.m */,
+				AEDB2FC4234DD1BF00470BA9 /* AlbumViewController.h */,
+				AEDB2FC5234DD1BF00470BA9 /* AlbumViewController.m */,
+				AEDB2FC7234DD1D200470BA9 /* MusicViewController.h */,
+				AEDB2FC8234DD1D200470BA9 /* MusicViewController.m */,
 			);
 			path = QSSlideView;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 			files = (
 				AEDB2FBD234DCB6500470BA9 /* QSSlideView.m in Sources */,
 				AEDB2FA6234DCA6900470BA9 /* ViewController.m in Sources */,
+				AEDB2FC9234DD1D200470BA9 /* MusicViewController.m in Sources */,
+				AEDB2FC6234DD1BF00470BA9 /* AlbumViewController.m in Sources */,
 				AEDB2FBC234DCB6500470BA9 /* QSItemView.m in Sources */,
 				AEDB2FB1234DCA6A00470BA9 /* main.m in Sources */,
 				AEDB2FA3234DCA6900470BA9 /* AppDelegate.m in Sources */,
