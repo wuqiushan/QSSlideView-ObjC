@@ -75,7 +75,7 @@
     
     CGRect rect = CGRectMake(0, IOSNavgationTotalHeight, IOSScreenWidth, IOSScreenHeight - IOSNavgationTotalHeight);
     NSArray *views = @[musicVC.view, albumVC.view, musicVCTwo.view];
-    NSArray *titles = @[@"单曲(13)", @"专辑(8)", @"单曲2(45)"];
+    NSArray *titles = @[@"单曲(13)", @"专辑(8)", @"单曲2"];
     self.pageView = [[QSSlideView alloc] initWithFrame:rect SubViewArray:views
                                              ItemStyle:IOSItemStyleTotalSolidItemEqual titleArray:titles
                                             titleColor:[UIColor colorWithRed:0x93 / 255.0 green:0x93 / 255.0 blue:0x93 / 255.0 alpha:1.0]
