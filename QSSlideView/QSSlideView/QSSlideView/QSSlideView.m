@@ -140,7 +140,7 @@
         weakSelf.currentIndex = index;
     };
     
-    // 需要显示的内容视图初始化为容器的大小，这样w使用都无需要设置内容视图的大小
+    // 需要显示的内容视图初始化为容器的大小，这样使用都无需要设置内容视图的大小
     [self.subViewArray removeAllObjects];
     [self.titleArray removeAllObjects];
     for (UIView *elementView in subViewArray) {
